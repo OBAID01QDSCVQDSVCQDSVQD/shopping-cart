@@ -8,7 +8,7 @@
   grid-template-areas: 
   "header"
   "main"
-  "footer";
+  "salah";
   height: 100vh;
   grid-template-rows: 80px 1fr 80px;
 }
@@ -18,19 +18,7 @@
 }
 
 
-footer{
-  grid-area: footer;
-  background-color: rgb(6, 126, 239);
- 
-  
-  color:azure;
-  text-align: center;
-  font-size: 40px;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 main{
   grid-area: main;
 }

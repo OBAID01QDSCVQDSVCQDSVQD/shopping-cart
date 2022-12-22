@@ -1,4 +1,5 @@
 import Header from "./components/Header/Header.js"
+import Fouter from "./components/Fouter/Fouter.js"
 
 
 function App() {
@@ -7,8 +8,8 @@ function App() {
       <div className="layout">
       <Header/>
     
-        <main>main</main>
-        <footer>Footer</footer>
+        
+        <Fouter/>
       </div>
     </div>
   );
