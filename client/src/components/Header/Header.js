@@ -1,12 +1,13 @@
 import React from 'react';
-import "../../css/Header/Header.css"
+import "../../css/Header/Header.css";
+import {word, words} from "../../words";
 
 function  header (){
 
     return (
         <header>
             <nav className="navbar">
-                <div className="brandtitle">SDK BATIMENT</div>
+                <div className="brandtitle"> {word.sdk} </div>
                 <a href="#" class="togglebutton">
                     <span class="bar"></span>
                     <span class="bar"></span>
